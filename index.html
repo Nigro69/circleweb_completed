@@ -10,169 +10,170 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <div class="flex sticky w-full top-0 z-40 bg-white justify-between">
-      <div class="px-6 py-4">
-        <img class="cursor-pointer h-10 w-22 md:h-full md:w-full" src="/images/logo.png" alt="logo" />
+    <div class="nav-div">
+      <div class="logo-div">
+        <img class="logo-img" src="/images/logo.png" alt="logo" />
       </div>
-      <div class="grid place-items-center px-10 md:hidden"><i id="toggle" class="fa fa-bars fa-2x" aria-hidden="true"></i></div>
-      <div id="nav" class="md:flex grid place-items-center opacity-0 md:opacity-100 absolute transition-all ease-in-out md:static -top-72 left-0 right-0 bg-black md:bg-white text-white md:text-black px-5">
-        <button class="h-full text-center p-2 px-4 md:bg-orange-500 md:text-white text-lg uppercase">
+      <div class="menu-btn"><i id="toggle" class="fa fa-bars fa-2x" aria-hidden="true"></i></div>
+      <div id="nav" class="nav-op-div tg-off">
+        <button class="nav-btn-home">
           Home
         </button>
-        <button class="h-full text-center p-2 px-4 text-lg uppercase focus:bg-orange-500 block cursor-pointer focus:text-white">about</button>
-        <button class="h-full text-center p-2 px-4 text-lg uppercase focus:bg-orange-500 block cursor-pointer focus:text-white">service</button>
-        <button class="h-full text-center p-2 px-4 text-lg uppercase focus:bg-orange-500 block cursor-pointer focus:text-white">portfolio</button>
-        <button class="h-full text-center p-2 px-4 text-lg uppercase focus:bg-orange-500 block cursor-pointer focus:text-white">blog</button>
-        <button class="h-full text-center p-2 px-4 text-lg uppercase focus:bg-orange-500 block cursor-pointer focus:text-white">contact</button>
+        <button class="nav-btn">about</button>
+        <button class="nav-btn">service</button>
+        <button class="nav-btn">portfolio</button>
+        <button class="nav-btn">blog</button>
+        <button class="nav-btn">contact</button>
       </div>
     </div>
-    <div class="relative">
-      <img class="w-full h-[200px] md:h-[550px]" src="/images/i3.jpg" alt="main" />
-      <div class="absolute grid bottom-4 md:bottom-10 z-20 w-full place-items-center">
-        <div class="flex gap-3 md:gap-5">
-          <div class="flex h-1 md:h-1.5 w-8 md:w-12 bg-orange-500"></div>
-          <div class="flex h-1 md:h-1.5 w-8 md:w-12 bg-gray-200"></div>
-          <div class="flex h-1 md:h-1.5 w-8 md:w-12 bg-gray-200"></div>
+    <div class="" style="position: relative;">
+      <img class="main-img" src="/images/i3.jpg" alt="main" />
+      <div class="ind-div">
+        <div class="in-ind-div">
+          <div class="ind" style="background-color: #ff6600;"></div>
+          <div class="ind" style="background-color: #eee;"></div>
+          <div class="ind" style="background-color: #eee;"></div>
         </div>
       </div>
     </div>
-    <div class="text-orange-500 text-3xl md:text-5xl text-center p-2 md:p-4 mt-4 md:mt-10">
+    <div class="main-title">
       Our Core Services
     </div>
-    <div class="text-center mx-5 md:px-40 py-4 md:text-xl font-normal">
+    <div class="serv-desc">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dicta
       consequuntur voluptatum dolor veniam fugit nulla vero corrupti eaque iusto
       tenetur, praesentium hic maiores sit non architecto cupiditate nostrum
       quo.
     </div>
-    <div class="px-5 md:px-20 gap-5 py-5 md:py-20 md:flex">
-      <div class="mt-5 md:my-0">
-        <div class="grid place-items-center">
-          <div class="p-3 bg-orange-500 rounded-xl grid place-items-center">
-            <i class="fa fa-desktop fa-4x text-white" aria-hidden="true"></i>
+    <div class="out-serv-ele-div">
+      <div class="ele-out-div">
+        <div class="img-out-div">
+          <div class="img-in-div">
+            <i class="fa fa-desktop fa-4x" style="color: white;" aria-hidden="true"></i>
           </div>
         </div>
-        <div class="text-center md:text-xl p-4 md:p-7 text-gray-600">
+        <div class="ele-desc">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
           fuga...
         </div>
-        <div class="grid place-items-center">
-          <button class="bg-gray-300 hover:bg-gray-200 px-6 py-2 font-semibold">Read More</button>
+        <div class="img-out-div">
+          <button class="read-more-btn">Read More</button>
         </div>
       </div>
-      <div class="mt-5 md:my-0">
-        <div class="grid place-items-center">
-          <div class="p-3 bg-orange-500 rounded-xl grid place-items-center">
-            <i class="fa fa-desktop fa-4x text-white" aria-hidden="true"></i>
+      <div class="ele-out-div">
+        <div class="img-out-div">
+          <div class="img-in-div">
+            <i class="fa fa-desktop fa-4x" style="color: white;" aria-hidden="true"></i>
           </div>
         </div>
-        <div class="text-center md:text-xl p-4 md:p-7 text-gray-600">
+        <div class="ele-desc">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
           fuga...
         </div>
-        <div class="grid place-items-center">
-          <button class="bg-gray-300 hover:bg-gray-200 px-6 py-2 font-semibold">Read More</button>
+        <div class="img-out-div">
+          <button class="read-more-btn">Read More</button>
         </div>
       </div>
-      <div class="mt-5 md:my-0">
-        <div class="grid place-items-center">
-          <div class="p-3 bg-orange-500 rounded-xl grid place-items-center">
-            <i class="fa fa-desktop fa-4x text-white" aria-hidden="true"></i>
+      <div class="ele-out-div">
+        <div class="img-out-div">
+          <div class="img-in-div">
+            <i class="fa fa-desktop fa-4x" style="color: white;" aria-hidden="true"></i>
           </div>
         </div>
-        <div class="text-center md:text-xl p-4 md:p-7 text-gray-600">
+        <div class="ele-desc">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
           fuga...
         </div>
-        <div class="grid place-items-center">
-          <button class="bg-gray-300 hover:bg-gray-200 px-6 py-2 font-semibold">Read More</button>
+        <div class="img-out-div">
+          <button class="read-more-btn">Read More</button>
         </div>
       </div>
-      <div class="mt-5 md:my-0">
-        <div class="grid place-items-center">
-          <div class="p-3 bg-orange-500 rounded-xl grid place-items-center">
-            <i class="fa fa-desktop fa-4x text-white" aria-hidden="true"></i>
+      <div class="ele-out-div">
+        <div class="img-out-div">
+          <div class="img-in-div">
+            <i class="fa fa-desktop fa-4x" style="color: white;" aria-hidden="true"></i>
           </div>
         </div>
-        <div class="text-center md:text-xl p-4 md:p-7 text-gray-600">
+        <div class="ele-desc">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
           fuga...
         </div>
-        <div class="grid place-items-center">
-          <button class="bg-gray-300 hover:bg-gray-200 px-6 py-2 font-semibold">Read More</button>
+        <div class="img-out-div">
+          <button class="read-more-btn">Read More</button>
         </div>
       </div>
     </div>
-    <div class="text-orange-500 text-3xl md:text-5xl text-center p-2 md:p-4 mt-10">
+    <div class="main-title">
       Our Latest Projects
     </div>
-    <div class="md:grid grid-cols-4 p-3 md:p-6 space-y-1 md:space-y-0 gap-3">
+    <div class="prj-out-div">
       <img
-        class="transition-all ease-in-out hover:scale-105 cursor-pointer duration-500"
+        class="prj"
         src="/images/i1.jpg"
         alt="color"
       />
       <img
-        class="transition-all ease-in-out hover:scale-105 cursor-pointer duration-500"
+        class="prj"
         src="/images/i2.jpg"
         alt="shiva"
       />
       <img
-        class="transition-all ease-in-out hover:scale-105 cursor-pointer duration-500"
+        class="prj"
         src="/images/i1.jpg"
         alt="color"
       />
       <img
-        class="transition-all ease-in-out hover:scale-105 cursor-pointer duration-500"
+        class="prj"
         src="/images/i2.jpg"
         alt="shiva"
       />
       <img
-        class="transition-all ease-in-out hover:scale-105 cursor-pointer duration-500"
+        class="prj"
         src="/images/i2.jpg"
         alt="shiva"
       />
       <img
-        class="transition-all ease-in-out hover:scale-105 cursor-pointer duration-500"
+        class="prj"
         src="/images/i1.jpg"
         alt="color"
       />
       <img
-        class="transition-all ease-in-out hover:scale-105 cursor-pointer duration-500"
+        class="prj"
         src="/images/i2.jpg"
         alt="shiva"
       />
       <img
-        class="transition-all ease-in-out hover:scale-105 cursor-pointer duration-500"
+        class="prj"
         src="/images/i1.jpg"
         alt="color"
       />
     </div>
     <div
-      class="w-full h-[400px] md:h-80 px-8 md:px-24 mt-10"
+      class="prpl-sec"
       style="background-image: url(/images/i6.jpg)"
     >
-      <div class="md:flex md:gap-14 lg:gap-24 h-full place-items-center">
-        <div class="grid shrink-0 place-items-center pt-10 pb-6 md:pt-0 md:pb-0">
-          <img class="h-26 w-36 md:h-52 md:w-80" src="/images/i11.png" alt="laptop" />
+      <div class="sec-out-div">
+        <div class="lap-img-div">
+          <img class="lap-img" src="/images/i11.png" alt="laptop" />
         </div>
-        <div class="w-full">
-          <div class="grid md:block place-items-center">
+        <div class="" style="width: 100%;">
+          <div class="pp1-div">
             <span
-              class="text-white text-center lg:text-left border-dashed text-xl md:text-2xl lg:text-3xl py-1 border-b-2 border-b-orange-500"
+              class="pp1"
             >
               New addition to Works and Services</span
             >
           </div>
-          <div class="py-5 text-center md:text-left text-white lg:text-lg">
+          <div class="pp-des1">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
             possimus ab, error accusantium unde a delectus. Suscipit eum sunt
             officiis in accusamus doloribus odit itaque, rem earum et labore
             veritatis? Lorem ipsum dolor sit amet consectetur adipisicing
           </div>
-          <div class="text-white hidden lg:block text-lg">
+          <div class="pp-des2">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam
             voluptatibus illum sunt magnam enim neque vel fugit explicabo ea.
             Harum, eius in vero suscipit
@@ -180,18 +181,18 @@
         </div>
       </div>
     </div>
-    <div class="md:flex md:h-64">
-      <div class="md:w-3/4 w-full py-6 px-10">
-        <div class="text-xl md:text-2xl text-center md:text-left text-orange-500">Recent Testimonial</div>
-        <div class="md:flex gap-10 place-items-center my-6">
-          <div class="grid shrink-0 place-items-center">
+    <div class="last-sec-out">
+      <div class="last-sec-i1">
+        <div class="last-titl">Recent Testimonial</div>
+        <div class="g-img-div">
+          <div class="" style="display: grid; place-items: center; flex-shrink: 0;">
           <img
-            class="h-12 w-12 md:h-16 md:w-16 object-cover rounded-full"
+            class="g-img"
             src="https://img.freepik.com/free-photo/portrait-caucasian-woman-smiling_53876-24998.jpg?w=2000"
             alt="person"
           />
           </div>
-          <div class="md:text-lg text-center pt-5 md:py-0 md:text-left italic">
+          <div class="g-des1">
             "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio
             distinctio dolor praesentium quaerat, perspiciatis illum numquam
             commodi vel quibusdam minus optio sunt dolore et exercitationem
@@ -199,24 +200,22 @@
           </div>
         </div>
       </div>
-      <div class="md:w-1/4 p-6">
-        <div class="text-xl md:text-2xl text-center md:text-left text-orange-500">Upcoming Event</div>
-        <div class="md:text-lg text-center md:text-left my-6">
+      <div class="last-sec-i2">
+        <div class="last-titl">Upcoming Event</div>
+        <div class="g-des2">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi natus
           incidunt quod adipisci nisi.
         </div>
       </div>
     </div>
-    <div class="w-full bg-orange-500 grid place-items-center p-3">
-      <div class="text-white text-sm md:text-base">Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2023 circleweb. All rights reserved.</div>
+    <div class="footer-div">
+      <div class="footer">Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2023 circleweb. All rights reserved.</div>
     </div>
   </body>
   <script>
     document.getElementById("toggle").addEventListener("click",function(){
-      document.getElementById("nav").classList.toggle("-top-72")
-      document.getElementById("nav").classList.toggle("top-16")
-      document.getElementById("nav").classList.toggle("opacity-0")
-      document.getElementById("nav").classList.toggle("opacity-100")
+      document.getElementById("nav").classList.toggle("tg-off")
+      document.getElementById("nav").classList.toggle("tg-on")
     })
   </script>
 </html>
